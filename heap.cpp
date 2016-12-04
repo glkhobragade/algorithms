@@ -1,48 +1,8 @@
 /******************************************************************************
  * @file          heap.cpp
- * @author        Amit P/Ghansham K
- * ----------------------------------------------------------------------------
- * Revision History   :
- * ============================================================================
- * Date       Author               Description
- * ----------------------------------------------------------------------------
- * 02-Dec-2016   Amit P/Ghansham K      Creation
- *****************************************************************************
- * Copyright (c) Nokia 2016
- * All rights reserved.
- * Licensed material - property of Nokia
- *****************************************************************************/
+ * @author        Ghansham K
+ ******************************************************************************/
 
-
-/*
- *     cout << "Hello World \n" << endl;
-    //std::vector<int> heap(10,5);
-    std::vector<int> heap;
-
-    cout << heap.size() <<endl;
-    heap.push_back(1);
-    heap.push_back(2);
-    heap.push_back(3);
-    heap.push_back(4);
-   // heap.push_back(5);
-
-    cout << heap.size() <<endl;
-    cout << heap.capacity() <<endl;
-    cout << heap.max_size() <<endl;
-   // cout << heap.reserve() <<endl;
-
-   for( auto a : heap)
-   {   cout << a ; }
-   cout << endl;
-
-   for(int i=0 ; i < heap.size(); i++)
-       cout << heap[i];
-   heap.pop_back();
-
-   for( auto a : heap)
-   {  cout << a ; }
-
- */
 
 #include<iostream>
 #include<vector>
